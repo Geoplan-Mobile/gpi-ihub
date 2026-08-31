@@ -1,0 +1,1202 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "gpi_ihub",
+    "printedName": "gpi_ihub",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub"
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub"
+      },
+      {
+        "kind": "Import",
+        "name": "gpi_prm",
+        "printedName": "gpi_prm",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub"
+      },
+      {
+        "kind": "Import",
+        "name": "gpi_prm",
+        "printedName": "gpi_prm",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "gpi_logger",
+        "printedName": "gpi_logger",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NearbyInteraction",
+        "printedName": "NearbyInteraction",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub"
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub"
+      },
+      {
+        "kind": "Import",
+        "name": "gpi_dltdoa",
+        "printedName": "gpi_dltdoa",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HubListener",
+        "printedName": "HubListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onStarted",
+            "printedName": "onStarted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8gpi_ihub11HubListenerP9onStartedyyF",
+            "mangledName": "$s8gpi_ihub11HubListenerP9onStartedyyF",
+            "moduleName": "gpi_ihub",
+            "genericSig": "<τ_0_0 where τ_0_0 : gpi_ihub.HubListener>",
+            "sugared_genericSig": "<Self where Self : gpi_ihub.HubListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onStopped",
+            "printedName": "onStopped()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8gpi_ihub11HubListenerP9onStoppedyyF",
+            "mangledName": "$s8gpi_ihub11HubListenerP9onStoppedyyF",
+            "moduleName": "gpi_ihub",
+            "genericSig": "<τ_0_0 where τ_0_0 : gpi_ihub.HubListener>",
+            "sugared_genericSig": "<Self where Self : gpi_ihub.HubListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTrackingStarted",
+            "printedName": "onTrackingStarted(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8gpi_ihub11HubListenerP17onTrackingStartedyys5Int64VF",
+            "mangledName": "$s8gpi_ihub11HubListenerP17onTrackingStartedyys5Int64VF",
+            "moduleName": "gpi_ihub",
+            "genericSig": "<τ_0_0 where τ_0_0 : gpi_ihub.HubListener>",
+            "sugared_genericSig": "<Self where Self : gpi_ihub.HubListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTrackingStopped",
+            "printedName": "onTrackingStopped(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8gpi_ihub11HubListenerP17onTrackingStoppedyys5Int64VF",
+            "mangledName": "$s8gpi_ihub11HubListenerP17onTrackingStoppedyys5Int64VF",
+            "moduleName": "gpi_ihub",
+            "genericSig": "<τ_0_0 where τ_0_0 : gpi_ihub.HubListener>",
+            "sugared_genericSig": "<Self where Self : gpi_ihub.HubListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPosition",
+            "printedName": "onPosition(_:_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8gpi_ihub11HubListenerP10onPositionyys5Int64V_S3dtF",
+            "mangledName": "$s8gpi_ihub11HubListenerP10onPositionyys5Int64V_S3dtF",
+            "moduleName": "gpi_ihub",
+            "genericSig": "<τ_0_0 where τ_0_0 : gpi_ihub.HubListener>",
+            "sugared_genericSig": "<Self where Self : gpi_ihub.HubListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAreaEvent",
+            "printedName": "onAreaEvent(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8gpi_ihub11HubListenerP11onAreaEventyys5Int64V_S2StF",
+            "mangledName": "$s8gpi_ihub11HubListenerP11onAreaEventyys5Int64V_S2StF",
+            "moduleName": "gpi_ihub",
+            "genericSig": "<τ_0_0 where τ_0_0 : gpi_ihub.HubListener>",
+            "sugared_genericSig": "<Self where Self : gpi_ihub.HubListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8gpi_ihub11HubListenerP7onErroryySi_SStF",
+            "mangledName": "$s8gpi_ihub11HubListenerP7onErroryySi_SStF",
+            "moduleName": "gpi_ihub",
+            "genericSig": "<τ_0_0 where τ_0_0 : gpi_ihub.HubListener>",
+            "sugared_genericSig": "<Self where Self : gpi_ihub.HubListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8gpi_ihub11HubListenerP",
+        "mangledName": "$s8gpi_ihub11HubListenerP",
+        "moduleName": "gpi_ihub",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NearbyInteraction",
+        "printedName": "NearbyInteraction",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub"
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IntelligenceHub",
+        "printedName": "IntelligenceHub",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setLicense",
+            "printedName": "setLicense(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8gpi_ihub15IntelligenceHubC10setLicenseyySSFZ",
+            "mangledName": "$s8gpi_ihub15IntelligenceHubC10setLicenseyySSFZ",
+            "moduleName": "gpi_ihub",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInstance",
+            "printedName": "getInstance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IntelligenceHub",
+                "printedName": "gpi_ihub.IntelligenceHub",
+                "usr": "c:@M@gpi_ihub@objc(cs)IntelligenceHub"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8gpi_ihub15IntelligenceHubC11getInstanceACyFZ",
+            "mangledName": "$s8gpi_ihub15IntelligenceHubC11getInstanceACyFZ",
+            "moduleName": "gpi_ihub",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isAvailableDlTdoa",
+            "printedName": "isAvailableDlTdoa()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8gpi_ihub15IntelligenceHubC17isAvailableDlTdoaSbyFZ",
+            "mangledName": "$s8gpi_ihub15IntelligenceHubC17isAvailableDlTdoaSbyFZ",
+            "moduleName": "gpi_ihub",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setListener",
+            "printedName": "setListener(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any gpi_ihub.HubListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HubListener",
+                    "printedName": "any gpi_ihub.HubListener",
+                    "usr": "s:8gpi_ihub11HubListenerP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8gpi_ihub15IntelligenceHubC11setListeneryyAA0dF0_pSgF",
+            "mangledName": "$s8gpi_ihub15IntelligenceHubC11setListeneryyAA0dF0_pSgF",
+            "moduleName": "gpi_ihub",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8gpi_ihub15IntelligenceHubC5startyyF",
+            "mangledName": "$s8gpi_ihub15IntelligenceHubC5startyyF",
+            "moduleName": "gpi_ihub",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8gpi_ihub15IntelligenceHubC4stopyyF",
+            "mangledName": "$s8gpi_ihub15IntelligenceHubC4stopyyF",
+            "moduleName": "gpi_ihub",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLibraryVersion",
+            "printedName": "getLibraryVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8gpi_ihub15IntelligenceHubC17getLibraryVersionSSyF",
+            "mangledName": "$s8gpi_ihub15IntelligenceHubC17getLibraryVersionSSyF",
+            "moduleName": "gpi_ihub",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@gpi_ihub@objc(cs)IntelligenceHub",
+        "mangledName": "$s8gpi_ihub15IntelligenceHubC",
+        "moduleName": "gpi_ihub",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2989,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3236,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3463,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3543,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 4629,
+      "length": 38,
+      "value": "\"47500000-4253-428E-B095-A366AEA6CDDB\""
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "StringLiteral",
+      "offset": 4712,
+      "length": 35,
+      "value": "\"kr.geoplan.gpi-ihub.floor-trigger\""
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "Array",
+      "offset": 5571,
+      "length": 117,
+      "value": "[0x47, 0x50, 0x44, 0x4C, 0x54, 0x44, 0x4F, 0x41]"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5832,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5976,
+      "length": 4,
+      "value": "-100"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6590,
+      "length": 3,
+      "value": "127"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6951,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8083,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8087,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8245,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8250,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8378,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9372,
+      "length": 3,
+      "value": "600"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "Dictionary",
+      "offset": 9587,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11883,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/floor\/FloorInfraStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1344,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/floor\/FloorInfraStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1348,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/floor\/FloorInfraStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1353,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/floor\/FloorInfraStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1448,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/floor\/FloorInfraStore.swift",
+      "kind": "Dictionary",
+      "offset": 2427,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/floor\/FloorInfraStore.swift",
+      "kind": "Dictionary",
+      "offset": 2570,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/floor\/FloorSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3976,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/floor\/FloorSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3980,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/floor\/FloorSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14206,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/log\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 519,
+      "length": 10,
+      "value": "\"gpi-ihub\""
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/log\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/log\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 818,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/uwb\/CellSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1876,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/webapi\/IHubApi.swift",
+      "kind": "StringLiteral",
+      "offset": 1071,
+      "length": 21,
+      "value": "\"geospace.geoplan.io\""
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/webapi\/IHubApi.swift",
+      "kind": "StringLiteral",
+      "offset": 1125,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/webapi\/IHubApi.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1286,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/webapi\/IHubApi.swift",
+      "kind": "StringLiteral",
+      "offset": 1330,
+      "length": 11,
+      "value": "\"X-SDK-Key\""
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/webapi\/IHubApi.swift",
+      "kind": "StringLiteral",
+      "offset": 1384,
+      "length": 13,
+      "value": "\"X-Device-Id\""
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 576,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 695,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/EventExecutor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 647,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/EventExecutor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 670,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/HubErrorType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1293,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/HubErrorType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1387,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/HubErrorType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2468,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/HubErrorType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2648,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/HubErrorType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2798,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/HubErrorType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2898,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/HubErrorType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3458,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/HubErrorType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4133,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/HubErrorType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4799,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/HubErrorType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5789,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/HubErrorType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6655,
+      "length": 2,
+      "value": "11"
+    }
+  ]
+}

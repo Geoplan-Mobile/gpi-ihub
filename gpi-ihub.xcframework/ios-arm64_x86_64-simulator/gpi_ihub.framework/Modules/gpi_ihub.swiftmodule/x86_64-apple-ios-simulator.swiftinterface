@@ -1,0 +1,34 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.25.4 clang-2100.3.25.1)
+// swift-module-flags: -target x86_64-apple-ios27.0-simulator -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name gpi_ihub
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
+import CoreBluetooth
+import CoreGraphics
+import CoreLocation
+import Foundation
+import NearbyInteraction
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import simd
+public protocol HubListener : AnyObject {
+  func onStarted()
+  func onStopped()
+  func onTrackingStarted(_ floorId: Swift::Int64)
+  func onTrackingStopped(_ floorId: Swift::Int64)
+  func onPosition(_ floorId: Swift::Int64, _ x: Swift::Double, _ y: Swift::Double, _ z: Swift::Double)
+  func onAreaEvent(_ floorId: Swift::Int64, _ areaName: Swift::String, _ inOut: Swift::String)
+  func onError(_ code: Swift::Int, _ msg: Swift::String)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class IntelligenceHub : ObjectiveC::NSObject, @unchecked Swift::Sendable {
+  public static func setLicense(_ license: Swift::String)
+  public static func getInstance() -> gpi_ihub::IntelligenceHub
+  public static func isAvailableDlTdoa() -> Swift::Bool
+  final public func setListener(_ listener: (any gpi_ihub::HubListener)?)
+  final public func start()
+  final public func stop()
+  final public func getLibraryVersion() -> Swift::String
+  @objc deinit
+}
