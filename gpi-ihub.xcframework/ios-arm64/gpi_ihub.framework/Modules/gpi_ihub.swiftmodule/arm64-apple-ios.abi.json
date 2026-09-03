@@ -16,6 +16,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "gpi_ihub"
+      },
+      {
+        "kind": "Import",
         "name": "CoreBluetooth",
         "printedName": "CoreBluetooth",
         "declKind": "Import",
@@ -837,133 +844,140 @@
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "IntegerLiteral",
-      "offset": 2989,
+      "offset": 3002,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "IntegerLiteral",
-      "offset": 3236,
+      "offset": 3249,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "IntegerLiteral",
-      "offset": 3463,
+      "offset": 3476,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "IntegerLiteral",
-      "offset": 3543,
+      "offset": 3556,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "StringLiteral",
-      "offset": 4629,
+      "offset": 4642,
       "length": 38,
       "value": "\"47500000-4253-428E-B095-A366AEA6CDDB\""
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "StringLiteral",
-      "offset": 4712,
+      "offset": 4725,
       "length": 35,
       "value": "\"kr.geoplan.gpi-ihub.floor-trigger\""
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "Array",
-      "offset": 5571,
+      "offset": 5584,
       "length": 117,
       "value": "[0x47, 0x50, 0x44, 0x4C, 0x54, 0x44, 0x4F, 0x41]"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "IntegerLiteral",
-      "offset": 5832,
+      "offset": 5845,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "IntegerLiteral",
-      "offset": 5976,
+      "offset": 5989,
       "length": 4,
       "value": "-100"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "IntegerLiteral",
-      "offset": 6590,
+      "offset": 6603,
       "length": 3,
       "value": "127"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "IntegerLiteral",
-      "offset": 6951,
+      "offset": 6964,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "IntegerLiteral",
-      "offset": 8083,
+      "offset": 8096,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "IntegerLiteral",
-      "offset": 8087,
+      "offset": 8100,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "IntegerLiteral",
-      "offset": 8245,
+      "offset": 8258,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "IntegerLiteral",
-      "offset": 8250,
+      "offset": 8263,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "IntegerLiteral",
-      "offset": 8378,
+      "offset": 8391,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "IntegerLiteral",
-      "offset": 9372,
+      "offset": 9680,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10675,
       "length": 3,
       "value": "600"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "Dictionary",
-      "offset": 9587,
+      "offset": 10890,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/ble\/FloorSelector.swift",
       "kind": "BooleanLiteral",
-      "offset": 11883,
+      "offset": 13636,
       "length": 5,
       "value": "false"
     },
@@ -1197,6 +1211,13 @@
       "offset": 6655,
       "length": 2,
       "value": "11"
+    },
+    {
+      "filePath": "\/Users\/ksh\/WORKSPACE\/Mobile\/gpm-intelligencehub\/gpi-ihub\/gpi-ihub\/internal\/HubErrorType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7224,
+      "length": 2,
+      "value": "12"
     }
   ]
 }
