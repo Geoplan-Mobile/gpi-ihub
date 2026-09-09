@@ -55,7 +55,6 @@ intelligencehub 측에 문의한다.
 1. Xcode 상단 메뉴 **[File] → [Add Package Dependencies...]**
 2. 검색창에 저장소 주소 입력
    `https://github.com/Geoplan-Mobile/gpi-ihub`
-   *(Private 저장소이므로 사용할 GitHub 계정이 Collaborator 로 등록돼 있어야 한다.)*
 3. **Dependency Rule** 설정 후 **[Add Package]**
 
 > `gpi-dltdoa` · `gpi-prm` · `gpi-logger` 는 SPM 이 자동으로 함께 가져오므로 별도로 추가하지 않는다.
