@@ -11,7 +11,9 @@ import PackageDescription
 let package = Package(
     name: "gpi-ihub",
     platforms: [
-        .iOS("27.0"),
+        // iOS 18+ 앱은 패키지를 추가할 수 있다. 실제 SDK API 는 iOS 27.0+
+        // availability로 노출되므로, 호출 앱에서 #available 가드가 필요하다.
+        .iOS("18.0"),
     ],
     products: [
         .library(

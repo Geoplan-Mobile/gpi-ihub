@@ -15,7 +15,6 @@ BLE 광고로 지금 있는 층을 식별하고, 그 층에 설치된 UWB 앵커
 
 이 저장소는 `gpi-ihub` 의 **배포 전용 저장소**다. 사전 컴파일된 `XCFramework` 를 SPM
 패키지로 제공하며, 실기기(arm64) 와 시뮬레이터(arm64, x86_64) 를 모두 지원한다.  
-배포 버전은 `gpi-ihub.xcframework/VERSION_X.X.X` 파일로 확인한다.
 
 ---
 
@@ -23,7 +22,7 @@ BLE 광고로 지금 있는 층을 식별하고, 그 층에 설치된 UWB 앵커
 
 | 항목 | 값 |
 |---|---|
-| iOS | 27.0 이상 |
+| iOS | 18.0 이상 (패키지 추가) / SDK 측위 API 사용은 27.0 이상 |
 | 기기 | DL-TDoA 를 지원하는 UWB 탑재 기기 |
 | 네트워크 | 필요 |
 | 라이선스 | intelligencehub 발급 키 필요 |
@@ -40,10 +39,14 @@ BLE 광고로 지금 있는 층을 식별하고, 그 층에 설치된 UWB 앵커
 
 | 앵커 모델 | 지원 호스트 버전 |
 |---|---|
-| AN-460 | A04-D05 |
-| AN-500 | A01-D10 |
+| AN-460 | A04-005 이상 |
+| AN-500 | A01-010 이상 |
 
 보유 하드웨어의 모델과 호스트 버전은 intelligencehub 의 **하드웨어 관리** 탭에서 확인한다.
+
+위 지원 호스트 버전은 **현재 릴리스 시점에 확인된 기기 기준**이다. intelligencehub
+(`https://geospace.geoplan.io`) 업데이트에 따라 변경될 수 있으며, 상세 지원 범위는
+intelligencehub 측에 문의한다.
 
 ---
 
@@ -108,6 +111,18 @@ BLE 광고로 지금 있는 층을 식별하고, 그 층에 설치된 UWB 앵커
 import gpi_ihub
 import CoreLocation
 
+// `IntelligenceHub` 는 iOS 27.0+ API다.
+// iOS 18~26에서도 패키지는 추가할 수 있지만, 이 블록에는 진입하면 안 된다.
+if #available(iOS 27.0, *) {
+    MyPositioningService.setUp()
+    let positioningService = MyPositioningService()
+    positioningService.startPositioning()
+    // 실제 앱에서는 positioningService 를 필요한 수명 동안 보관한다.
+} else {
+    // iOS 18~26: SDK 측위 기능 미지원 처리
+}
+
+@available(iOS 27.0, *)
 final class MyPositioningService: HubListener {
 
     private let hub = IntelligenceHub.getInstance()
@@ -160,6 +175,9 @@ final class MyPositioningService: HubListener {
 }
 ```
 
+- 패키지는 iOS 18+ 앱에 추가할 수 있다. 단, `IntelligenceHub` 는
+  **iOS 27.0+ 전용**이므로, 사용하는 타입을 `@available(iOS 27.0, *)`로 표시하거나
+  호출부를 `if #available(iOS 27.0, *)`로 감싼다.
 - `setLicense(_:)` 는 앱 시작 시 1회 호출한다.
 - `start()` 는 예외를 던지지 않는다. 호출하면 `onStarted()` 또는 `onError(_:_:)` 중 하나가 온다.
   라이선스를 서버에 확인하므로 네트워크 왕복만큼 늦어지며, 응답이 없으면 10초 뒤 `onError(11)` 이 온다.
@@ -172,7 +190,10 @@ final class MyPositioningService: HubListener {
 
 공개 타입은 `IntelligenceHub` 와 `HubListener` 둘뿐이다.
 
-### 클래스: `IntelligenceHub`
+### 클래스: `IntelligenceHub` (iOS 27.0+)
+
+`IntelligenceHub` 는 iOS 27.0+ 전용이다. iOS 18~26도 함께 지원하는 앱에서는
+`if #available(iOS 27.0, *)` 안에서 이 클래스를 사용해야 한다.
 
 | 멤버 | 설명 |
 |---|---|
@@ -182,7 +203,7 @@ final class MyPositioningService: HubListener {
 | `func setListener(_ listener: HubListener?)` | 리스너 등록. `nil` 이면 해제 |
 | `func start()` | 측위 시작. 예외를 던지지 않음 |
 | `func stop()` | 측위 정지. 이미 정지 상태면 아무 일도 일어나지 않음 |
-| `func getLibraryVersion() -> String` | 버전 문자열. 예: `"1.0.0"` (조회 실패 시 `"unknown"`) |
+| `func getLibraryVersion() -> String` | 버전 문자열. 예: `"1.0.1"` (조회 실패 시 `"unknown"`) |
 
 SDK 가 리스너를 계속 붙잡고 있으므로, 더 이상 쓰지 않을 때 `setListener(nil)` 로 해제한다.
 
