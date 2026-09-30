@@ -9,6 +9,8 @@
 BLE 광고로 지금 있는 층을 식별하고, 그 층에 설치된 UWB 앵커와 DL-TDoA 측위를 수행해
 좌표를 통지한다. 층에 영역(zone) 이 등록돼 있으면 진입/이탈 이벤트도 함께 통지한다.
 
+> 동일한 기능의 Android 라이브러리(`gpa-ihub`) 문서는 [gpa-ihub/README.md](gpa-ihub/README.md) 를 참고한다.
+
 ---
 
 ## 배포 형태

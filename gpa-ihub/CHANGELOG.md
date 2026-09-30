@@ -1,0 +1,15 @@
+# Changelog
+
+모든 주요 변경 사항은 이 파일에 기록됩니다.
+
+## [1.1.0] - 2026-09-22
+
+### 최초 AAR 배포
+
+- **AAR 기반 Nexus 배포**: 사내 Nexus 에 `kr.geoplan.android.lib:gpa-ihub` 로 제공.
+- **BLE 층 식별 + UWB DL-TDoA 실내 측위**: 좌표와 영역 진출입 이벤트를 통지.
+- **라이선스**: 측위를 시작하려면 intelligencehub 발급 키가 필요.
+
+### 요구사항
+- `minSdk` **37**, **DL-TDoA 를 지원하는 UWB 탑재 기기**.
+- 매니페스트 선언과 런타임 권한 설정이 필요합니다. README 를 참고하세요.
