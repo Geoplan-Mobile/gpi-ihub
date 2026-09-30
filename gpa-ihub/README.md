@@ -56,7 +56,7 @@ intelligencehub 측에 문의한다.
 
 ## 1. Gradle 연동
 
-`settings.gradle` 에 사내 Nexus 저장소를 추가한다.
+`settings.gradle` 에 사내 Nexus 저장소를 추가한다. **접속 계정·비밀번호는 Geoplan 에 문의**한다.
 
 ```gradle
 dependencyResolutionManagement {
@@ -65,8 +65,8 @@ dependencyResolutionManagement {
         mavenCentral()
         maven {
             credentials {
-                username "guest"
-                password "geoplan"
+                username "<발급 계정>"       // Geoplan 문의
+                password "<발급 비밀번호>"    // Geoplan 문의
             }
             url "http://geoplan.iptime.org:30005/nexus/content/repositories/geoplan_release"
             allowInsecureProtocol true
