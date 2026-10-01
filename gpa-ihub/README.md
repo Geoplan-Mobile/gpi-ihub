@@ -98,7 +98,7 @@ android {
 }
 
 dependencies {
-    implementation 'kr.geoplan.android.lib:gpa-ihub:1.1.0'
+    implementation 'kr.geoplan.android.lib:gpa-ihub:1.1.1'
 }
 ```
 
@@ -241,7 +241,7 @@ public class MyPositioningService implements HubListener {
 | `void setListener(HubListener listener)` | 리스너 등록. `null` 이면 해제 |
 | `void start()` | 측위 시작. 예외를 던지지 않음 |
 | `void stop()` | 측위 정지. 이미 정지 상태면 아무 일도 일어나지 않음 |
-| `String getLibraryVersion()` | 버전 문자열. 예: `"1.1.0"` |
+| `String getLibraryVersion()` | 버전 문자열. 예: `"1.1.1"` |
 
 `isUwbHardwareAvailable()` 은 **UWB 칩이 있는지만** 확인하는 사전 힌트다. 칩이 있어도
 DL-TDoA 를 지원하지 않는 기기가 있으므로 `true` 라고 측위가 보장되지는 않는다.
