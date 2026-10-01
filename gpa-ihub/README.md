@@ -52,6 +52,21 @@ BLE 광고로 지금 있는 층을 식별하고, 그 층에 설치된 UWB 앵커
 (`https://geospace.geoplan.io`) 업데이트에 따라 변경될 수 있으며, 상세 지원 범위는
 intelligencehub 측에 문의한다.
 
+### 알려진 제한 — 휴대폰
+
+**Galaxy S25+ (SM-S936N) 는 현재 버전에서 지원하지 않는다.**
+`start()` 는 성공하지만 UWB 세션이 열리지 않아 측위가 되지 않고,
+`onError(5, ...)` 로 `open failed, reason=UNSUPPORTED(3)` 가 반복해서 통지된다.
+
+| 기기 | 상태 |
+|---|---|
+| Pixel 10 Pro | 정상 |
+| Galaxy S25+ (SM-S936N, Android 17) | 세션 열기 실패 |
+
+S25+ 의 UWB 칩이 DL-TDoA 측정 결과 통지의 **v2 형식**을 요청하는 설정을 받아들이지 않는다.
+현재 버전은 v2 로 세션을 열기 때문에 이 기기에서 실패한다.
+다른 제조사 · 모델의 기기는 검증하지 않았다.
+
 ---
 
 ## 1. Gradle 연동
